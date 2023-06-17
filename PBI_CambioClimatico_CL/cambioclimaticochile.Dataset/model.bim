@@ -3805,6 +3805,17 @@
             "expression": "COUNTROWS( ft_indicadores )",
             "formatString": "#,0",
             "lineageTag": "0638b608-71ef-44cd-afdd-eedd7025edbe"
+          },
+          {
+            "name": "VV MINIMA",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "MIN ( ft_indicadores[min_vvel] )",
+            "lineageTag": "b717904f-29cc-4ff6-9664-8791de3294ca"
           }
         ],
         "partitions": [
