@@ -1,0 +1,4298 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"dim_estaciones\",\"ft_indicadores\",\"CatastrodeEstacionesdelSistemaS\",\"Medidas\",\"dim_regiones\",\"dim_hour\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.118.621.0 (23.06)"
+      },
+      {
+        "name": "__TEdtr",
+        "value": "1"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-CL",
+    "cultures": [
+      {
+        "name": "es-CL",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "dim_estacione": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estaciones"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim estacione": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_estaciones": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_estacione.altitud_mts": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estaciones",
+                    "ConceptualProperty": "Altitud (Mts)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "altitud (mts)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "altitud (mt)": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "altitud": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "dim_estacione.id_estacion": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estaciones",
+                    "ConceptualProperty": "idEstacion"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id estacion": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "idEstacion": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification estacion": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity estacion": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier estacion": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential estacion": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "dim_estacione.latitud": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estaciones",
+                    "ConceptualProperty": "latitud"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "latitud": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_estacione.longitud": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estaciones",
+                    "ConceptualProperty": "longitud"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "longitud": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_estacione.nombre_estacion": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estaciones",
+                    "ConceptualProperty": "nombreEstacion"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nombre estacion": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "nombreEstacion": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_estacione.paisaje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estaciones",
+                    "ConceptualProperty": "Paisaje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "paisaje": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_estacione.region": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estaciones",
+                    "ConceptualProperty": "Region"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "region": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "province": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "area": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "district": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "zone": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "continent": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_estacione.zona_geografica": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estaciones",
+                    "ConceptualProperty": "Zona Geografica"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "zona geografica": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_regione": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_regiones"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim regione": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_regiones": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_regione.codregion": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_regiones",
+                    "ConceptualProperty": "codregion"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "codregion": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_regione.geounit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_regiones",
+                    "ConceptualProperty": "geounit"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "geounit": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_regione.nombreregion": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_regiones",
+                    "ConceptualProperty": "nombreregion"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nombreregion": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim tiempo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Dim_Tiempo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo.date.variación.jerarquía_de_fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "jerarquía de fecha": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo.date.variación.jerarquía_de_fecha.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Año",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment año": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period año": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo.date.variación.jerarquía_de_fecha.día": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Día",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "día": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date día": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment día": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period día": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo.date.variación.jerarquía_de_fecha.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Mes",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment me": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "period me": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variación",
+                    "VariationSource": "Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment trimestre": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period trimestre": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo.decada": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo",
+                    "ConceptualProperty": "decada"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "decada": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo.estacion": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo",
+                    "ConceptualProperty": "estacion"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "estacion": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_tiempo.periodo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Tiempo",
+                    "ConceptualProperty": "periodo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "periodo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ft indicadore": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ft_indicadores": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.estacion": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "estacion"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "estacion": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "fecha"
+                  }
+                },
+                "Hidden": true,
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fecha": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.max_hum": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "max_hum"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "max hum": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "max_hum": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "hum": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "maximum hum": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "max vibration": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "vibration": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "max drone": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "max whine": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "max purr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "max buzz": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "max whirr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "drone": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "whine": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.max_temp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "max_temp"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "max temp": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "max_temp": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "temp": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "maximum temp": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "max fill-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "max stand-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "fill-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stand-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.max_vvel": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "max_vvel"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "max vvel": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "max_vvel": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "maximum vvel": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.med_temp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "med_temp"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "med temp": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "med_temp": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "temp": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "med fill-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "med stand-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "fill-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stand-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.min_hum": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "min_hum"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "min hum": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "min_hum": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "hum": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "minimum hum": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "min vibration": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "vibration": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "min drone": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "min whine": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "min purr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "min buzz": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "min whirr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "drone": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "whine": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.min_temp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "min_temp"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "min temp": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "min_temp": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "temp": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "minimum temp": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "min fill-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "min stand-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "fill-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stand-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.min_vvel": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "min_vvel"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "min vvel": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "min_vvel": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "minimum vvel": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "ft_indicadore.var_temp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ft_indicadores",
+                    "ConceptualProperty": "var_temp"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "var temp": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "var_temp": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "temp": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "var fill-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "var stand-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "fill-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stand-in": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.T_maxima": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "TMaxima"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "T maxima": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TMaxima": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "maxima": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "medida.T_minima": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "TMinima"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "T minima": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TMinima": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "minima": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "medida.columna_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Columna1"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "columna 1": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Columna1": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.filas": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "filas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "filas": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.oscilacion": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Oscilacion"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "oscilacion": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.temp_media": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Temp Media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "temp media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "temp television": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "temp radio": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "temp broadcasting": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "television": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "radio": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "broadcasting": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "temp vehicle": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "temp mode": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "temp method": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "temp avenue": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "medida.temp_media_aA": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Temp Media aA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "temp media aA": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aA": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "media aA": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "medida.var_TMedia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Var TMedia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "variación media de la temperatura": {
+                      "LastModified": "2023-04-24T04:25:21.86Z"
+                    }
+                  },
+                  {
+                    "var TMedia": {
+                      "LastModified": "2023-04-24T04:25:21.862Z",
+                      "State": "Deleted"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "dim_estacione_has_altitud_mts": {
+                "Binding": {
+                  "ConceptualEntity": "dim_estaciones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estacione.altitud_mts"
+                      },
+                      "Subject": {
+                        "Role": "dim_estacione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estacione": {
+                    "Target": {
+                      "Entity": "dim_estacione"
+                    }
+                  },
+                  "dim_estacione.altitud_mts": {
+                    "Target": {
+                      "Entity": "dim_estacione.altitud_mts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_estacione_has_dim_regione": {
+                "Binding": {
+                  "ConceptualEntity": "dim_estaciones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_regione"
+                      },
+                      "Subject": {
+                        "Role": "dim_estacione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estacione"
+                      },
+                      "Subject": {
+                        "Role": "dim_regione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estacione": {
+                    "Target": {
+                      "Entity": "dim_estacione"
+                    }
+                  },
+                  "dim_regione": {
+                    "Nouns": [
+                      {
+                        "region": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "dim_regione"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_estacione_has_latitud": {
+                "Binding": {
+                  "ConceptualEntity": "dim_estaciones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estacione.latitud"
+                      },
+                      "Subject": {
+                        "Role": "dim_estacione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estacione": {
+                    "Target": {
+                      "Entity": "dim_estacione"
+                    }
+                  },
+                  "dim_estacione.latitud": {
+                    "Target": {
+                      "Entity": "dim_estacione.latitud"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_estacione_has_longitud": {
+                "Binding": {
+                  "ConceptualEntity": "dim_estaciones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estacione.longitud"
+                      },
+                      "Subject": {
+                        "Role": "dim_estacione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estacione": {
+                    "Target": {
+                      "Entity": "dim_estacione"
+                    }
+                  },
+                  "dim_estacione.longitud": {
+                    "Target": {
+                      "Entity": "dim_estacione.longitud"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_estacione_has_nombre_estacion": {
+                "Binding": {
+                  "ConceptualEntity": "dim_estaciones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estacione.nombre_estacion"
+                      },
+                      "Subject": {
+                        "Role": "dim_estacione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estacione": {
+                    "Target": {
+                      "Entity": "dim_estacione"
+                    }
+                  },
+                  "dim_estacione.nombre_estacion": {
+                    "Target": {
+                      "Entity": "dim_estacione.nombre_estacion"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_estacione_has_paisaje": {
+                "Binding": {
+                  "ConceptualEntity": "dim_estaciones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estacione.paisaje"
+                      },
+                      "Subject": {
+                        "Role": "dim_estacione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estacione": {
+                    "Target": {
+                      "Entity": "dim_estacione"
+                    }
+                  },
+                  "dim_estacione.paisaje": {
+                    "Target": {
+                      "Entity": "dim_estacione.paisaje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_estacione_has_zona_geografica": {
+                "Binding": {
+                  "ConceptualEntity": "dim_estaciones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estacione.zona_geografica"
+                      },
+                      "Subject": {
+                        "Role": "dim_estacione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estacione": {
+                    "Target": {
+                      "Entity": "dim_estacione"
+                    }
+                  },
+                  "dim_estacione.zona_geografica": {
+                    "Target": {
+                      "Entity": "dim_estacione.zona_geografica"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_regione_has_geounit": {
+                "Binding": {
+                  "ConceptualEntity": "dim_regiones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_regione.geounit"
+                      },
+                      "Subject": {
+                        "Role": "dim_regione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_regione": {
+                    "Target": {
+                      "Entity": "dim_regione"
+                    }
+                  },
+                  "dim_regione.geounit": {
+                    "Target": {
+                      "Entity": "dim_regione.geounit"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_regione_has_nombreregion": {
+                "Binding": {
+                  "ConceptualEntity": "dim_regiones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_regione.nombreregion"
+                      },
+                      "Subject": {
+                        "Role": "dim_regione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_regione": {
+                    "Target": {
+                      "Entity": "dim_regione"
+                    }
+                  },
+                  "dim_regione.nombreregion": {
+                    "Target": {
+                      "Entity": "dim_regione.nombreregion"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_date_has_variación_jerarquía_de_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo.date": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date"
+                    }
+                  },
+                  "dim_tiempo.date.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_date_variación_jerarquía_de_fecha_año_has_dim_tiempo_date_variación_jerarquía_de_fecha_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.año"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.año"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.año"
+                    }
+                  },
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_date_variación_jerarquía_de_fecha_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo.date.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_date_variación_jerarquía_de_fecha_has_día": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo.date.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.día"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_date_variación_jerarquía_de_fecha_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo.date.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_date_variación_jerarquía_de_fecha_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo.date.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_date_variación_jerarquía_de_fecha_me_has_dim_tiempo_date_variación_jerarquía_de_fecha_día": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.día"
+                    }
+                  },
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_date_variación_jerarquía_de_fecha_trimestre_has_dim_tiempo_date_variación_jerarquía_de_fecha_me": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.me"
+                    }
+                  },
+                  "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.date"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo": {
+                    "Target": {
+                      "Entity": "dim_tiempo"
+                    }
+                  },
+                  "dim_tiempo.date": {
+                    "Target": {
+                      "Entity": "dim_tiempo.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_has_decada": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.decada"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo": {
+                    "Target": {
+                      "Entity": "dim_tiempo"
+                    }
+                  },
+                  "dim_tiempo.decada": {
+                    "Target": {
+                      "Entity": "dim_tiempo.decada"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_has_estacion": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.estacion"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo": {
+                    "Target": {
+                      "Entity": "dim_tiempo"
+                    }
+                  },
+                  "dim_tiempo.estacion": {
+                    "Target": {
+                      "Entity": "dim_tiempo.estacion"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_tiempo_has_periodo": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Tiempo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo.periodo"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo": {
+                    "Target": {
+                      "Entity": "dim_tiempo"
+                    }
+                  },
+                  "dim_tiempo.periodo": {
+                    "Target": {
+                      "Entity": "dim_tiempo.periodo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_dim_estacione": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estacione"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore"
+                      },
+                      "Subject": {
+                        "Role": "dim_estacione"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estacione": {
+                    "Target": {
+                      "Entity": "dim_estacione"
+                    }
+                  },
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_dim_tiempo": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_tiempo"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore"
+                      },
+                      "Subject": {
+                        "Role": "dim_tiempo"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_tiempo": {
+                    "Target": {
+                      "Entity": "dim_tiempo"
+                    }
+                  },
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_max_hum": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore.max_hum"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "ft_indicadore.max_hum": {
+                    "Target": {
+                      "Entity": "ft_indicadore.max_hum"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_max_temp": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore.max_temp"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "ft_indicadore.max_temp": {
+                    "Target": {
+                      "Entity": "ft_indicadore.max_temp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_max_vvel": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore.max_vvel"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "ft_indicadore.max_vvel": {
+                    "Target": {
+                      "Entity": "ft_indicadore.max_vvel"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_med_temp": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore.med_temp"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "ft_indicadore.med_temp": {
+                    "Target": {
+                      "Entity": "ft_indicadore.med_temp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_medida_T_maxima": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.T_maxima"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "medida.T_maxima": {
+                    "Target": {
+                      "Entity": "medida.T_maxima"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_medida_T_minima": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.T_minima"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "medida.T_minima": {
+                    "Target": {
+                      "Entity": "medida.T_minima"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_medida_filas": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.filas"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "medida.filas": {
+                    "Target": {
+                      "Entity": "medida.filas"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_medida_oscilacion": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.oscilacion"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "medida.oscilacion": {
+                    "Target": {
+                      "Entity": "medida.oscilacion"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_medida_temp_media": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.temp_media"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "medida.temp_media": {
+                    "Target": {
+                      "Entity": "medida.temp_media"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_medida_temp_media_aA": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.temp_media_aA"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "medida.temp_media_aA": {
+                    "Target": {
+                      "Entity": "medida.temp_media_aA"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_medida_var_TMedia": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.var_TMedia"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "medida.var_TMedia": {
+                    "Target": {
+                      "Entity": "medida.var_TMedia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_min_hum": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore.min_hum"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "ft_indicadore.min_hum": {
+                    "Target": {
+                      "Entity": "ft_indicadore.min_hum"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_min_temp": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore.min_temp"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "ft_indicadore.min_temp": {
+                    "Target": {
+                      "Entity": "ft_indicadore.min_temp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_min_vvel": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore.min_vvel"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "ft_indicadore.min_vvel": {
+                    "Target": {
+                      "Entity": "ft_indicadore.min_vvel"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ft_indicadore_has_var_temp": {
+                "Binding": {
+                  "ConceptualEntity": "ft_indicadores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ft_indicadore.var_temp"
+                      },
+                      "Subject": {
+                        "Role": "ft_indicadore"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ft_indicadore": {
+                    "Target": {
+                      "Entity": "ft_indicadore"
+                    }
+                  },
+                  "ft_indicadore.var_temp": {
+                    "Target": {
+                      "Entity": "ft_indicadore.var_temp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "CatastrodeEstacionesdelSistemaS",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Origen = Excel.Workbook(File.Contents(\"C:\\Users\\WalterECalcagnoLucar\\OneDrive - inegocios.cl\\Training\\estaciones.xlsx\"), null, true),",
+          "    CatastrodeEstacionesdelSistemaS1 = Origen{[Name=\"CatastrodeEstacionesdelSistemaS\"]}[Data],",
+          "    #\"Encabezados promovidos\" = Table.PromoteHeaders(CatastrodeEstacionesdelSistemaS1, [PromoteAllScalars=true]),",
+          "    #\"Tipo cambiado con configuración regional\" = Table.TransformColumnTypes(#\"Encabezados promovidos\", {{\"Altitud (Mts)\", Int64.Type}}, \"en-US\"),",
+          "    #\"Tipo cambiado con configuración regional1\" = Table.TransformColumnTypes(#\"Tipo cambiado con configuración regional\", {{\"Altura Minima (Mts)\", Int64.Type}}, \"en-US\"),",
+          "    #\"Otras columnas quitadas\" = Table.SelectColumns(#\"Tipo cambiado con configuración regional1\",{\"Codigo Nacional\", \"Nombre\", \"Latitud\", \"Longitud\", \"Altitud (Mts)\", \"Altura Minima (Mts)\", \"Fecha Creacion\", \"Zona Geografica\", \"Region\", \"Paisaje\"}),",
+          "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Otras columnas quitadas\",{{\"Codigo Nacional\", Int64.Type}})",
+          "in",
+          "    #\"Tipo cambiado\""
+        ],
+        "kind": "m",
+        "lineageTag": "c3522d8c-84f0-4ae0-b5d0-b27a59b0438c"
+      },
+      {
+        "name": "dim_hour",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = List.Times(#time(0,0,0),24*60*60,#duration(0,0,0,1)),",
+          "    #\"Converted to Table\" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),",
+          "    #\"Renamed Columns\" = Table.RenameColumns(#\"Converted to Table\",{{\"Column1\", \"Time\"}}),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Time\", type time}}),",
+          "    #\"Inserted Hour\" = Table.AddColumn(#\"Changed Type\", \"Hour\", each Time.Hour([Time]), Int64.Type),",
+          "    #\"Inserted Minute\" = Table.AddColumn(#\"Inserted Hour\", \"Minute\", each Time.Minute([Time]), Int64.Type),",
+          "    #\"Inserted Second\" = Table.AddColumn(#\"Inserted Minute\", \"Second\", each Time.Second([Time]), type number),",
+          "    #\"Added Conditional Column\" = Table.AddColumn(#\"Inserted Second\", \"AM/PM\", each if [Hour] < 12 then \"a.m.\" else \"p.m.\"),",
+          "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Added Conditional Column\",{{\"AM/PM\", type text}}),",
+          "    #\"Duplicated Column\" = Table.DuplicateColumn(#\"Changed Type1\", \"Time\", \"Time - Copy\"),",
+          "    #\"Removed Columns\" = Table.RemoveColumns(#\"Duplicated Column\",{\"Time - Copy\"}),",
+          "    #\"Duplicated Column1\" = Table.DuplicateColumn(#\"Removed Columns\", \"Hour\", \"Hour - Copy\"),",
+          "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Duplicated Column1\",{{\"Hour - Copy\", \"Hour label\"}}),",
+          "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Renamed Columns1\",{{\"Hour label\", type text}}),",
+          "    #\"Removed Columns1\" = Table.RemoveColumns(#\"Changed Type2\",{\"Hour label\"}),",
+          "    #\"Inserted Prefix\" = Table.AddColumn(#\"Removed Columns1\", \"Prefix\", each \"0\" & Text.From([Hour], \"en-NZ\"), type text),",
+          "    #\"Renamed Columns2\" = Table.RenameColumns(#\"Inserted Prefix\",{{\"Prefix\", \"Hour Label\"}}),",
+          "    #\"Extracted Last Characters\" = Table.TransformColumns(#\"Renamed Columns2\", {{\"Hour Label\", each Text.End(_, 2), type text}}),",
+          "    #\"Inserted Prefix1\" = Table.AddColumn(#\"Extracted Last Characters\", \"Prefix\", each \"0\" & Text.From([Minute], \"en-NZ\"), type text),",
+          "    #\"Renamed Columns3\" = Table.RenameColumns(#\"Inserted Prefix1\",{{\"Prefix\", \"Minute Label\"}}),",
+          "    #\"Extracted Last Characters1\" = Table.TransformColumns(#\"Renamed Columns3\", {{\"Minute Label\", each Text.End(_, 2), type text}}),",
+          "    #\"Inserted Prefix2\" = Table.AddColumn(#\"Extracted Last Characters1\", \"Prefix\", each \"0\" & Text.From([Second], \"en-NZ\"), type text),",
+          "    #\"Renamed Columns4\" = Table.RenameColumns(#\"Inserted Prefix2\",{{\"Prefix\", \"Second Label\"}}),",
+          "    #\"Extracted Last Characters2\" = Table.TransformColumns(#\"Renamed Columns4\", {{\"Second Label\", each Text.End(_, 2), type text}}),",
+          "    #\"Added Index\" = Table.AddIndexColumn(#\"Extracted Last Characters2\", \"Index\", 0, 1),",
+          "    #\"Renamed Columns5\" = Table.RenameColumns(#\"Added Index\",{{\"Index\", \"TimeKey\"}}),",
+          "    #\"Inserted Modulo\" = Table.AddColumn(#\"Renamed Columns5\", \"Modulo\", each Number.Mod([Hour], 12), type number),",
+          "    #\"Renamed Columns6\" = Table.RenameColumns(#\"Inserted Modulo\",{{\"Modulo\", \"Hour Bin 12\"}}),",
+          "    #\"Inserted Integer-Division\" = Table.AddColumn(#\"Renamed Columns6\", \"Integer-Division\", each Number.IntegerDivide([Hour], 8), Int64.Type),",
+          "    #\"Renamed Columns7\" = Table.RenameColumns(#\"Inserted Integer-Division\",{{\"Integer-Division\", \"Hour Bin 8\"}}),",
+          "    #\"Inserted Integer-Division1\" = Table.AddColumn(#\"Renamed Columns7\", \"Integer-Division\", each Number.IntegerDivide([Hour], 6), Int64.Type),",
+          "    #\"Renamed Columns8\" = Table.RenameColumns(#\"Inserted Integer-Division1\",{{\"Integer-Division\", \"Hour Bin 6\"}}),",
+          "    #\"Inserted Integer-Division2\" = Table.AddColumn(#\"Renamed Columns8\", \"Integer-Division\", each Number.IntegerDivide([Hour], 4), Int64.Type),",
+          "    #\"Renamed Columns9\" = Table.RenameColumns(#\"Inserted Integer-Division2\",{{\"Integer-Division\", \"Hour Bin 4\"}}),",
+          "    #\"Inserted Integer-Division3\" = Table.AddColumn(#\"Renamed Columns9\", \"Integer-Division\", each Number.IntegerDivide([Hour], 3), Int64.Type),",
+          "    #\"Renamed Columns10\" = Table.RenameColumns(#\"Inserted Integer-Division3\",{{\"Integer-Division\", \"Hour Bin 3\"}}),",
+          "    #\"Inserted Integer-Division4\" = Table.AddColumn(#\"Renamed Columns10\", \"Integer-Division\", each Number.IntegerDivide([Hour], 2), Int64.Type),",
+          "    #\"Renamed Columns11\" = Table.RenameColumns(#\"Inserted Integer-Division4\",{{\"Integer-Division\", \"Hour Bin 2\"}}),",
+          "    #\"Inserted Integer-Division5\" = Table.AddColumn(#\"Renamed Columns11\", \"Integer-Division\", each Number.IntegerDivide([Minute], 30), Int64.Type),",
+          "    #\"Multiplied Column\" = Table.TransformColumns(#\"Inserted Integer-Division5\", {{\"Integer-Division\", each _ * 30, type number}}),",
+          "    #\"Renamed Columns12\" = Table.RenameColumns(#\"Multiplied Column\",{{\"Integer-Division\", \"Minute Bin 30\"}}),",
+          "    #\"Inserted Integer-Division6\" = Table.AddColumn(#\"Renamed Columns12\", \"Integer-Division\", each Number.IntegerDivide([Minute], 15), Int64.Type),",
+          "    #\"Multiplied Column1\" = Table.TransformColumns(#\"Inserted Integer-Division6\", {{\"Integer-Division\", each _ * 15, type number}}),",
+          "    #\"Renamed Columns13\" = Table.RenameColumns(#\"Multiplied Column1\",{{\"Integer-Division\", \"Minute Bin 15\"}}),",
+          "    #\"Inserted Integer-Division7\" = Table.AddColumn(#\"Renamed Columns13\", \"Integer-Division\", each Number.IntegerDivide([Minute], 10), Int64.Type),",
+          "    #\"Multiplied Column2\" = Table.TransformColumns(#\"Inserted Integer-Division7\", {{\"Integer-Division\", each _ * 10, type number}}),",
+          "    #\"Renamed Columns14\" = Table.RenameColumns(#\"Multiplied Column2\",{{\"Integer-Division\", \"Minute Bin 10\"}})",
+          "in",
+          "    #\"Renamed Columns14\""
+        ],
+        "kind": "m",
+        "lineageTag": "b9ad07e6-1079-49e8-bf3f-455bc7a85d7d"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "32a6aff7-c39e-4b4e-b2b5-5929bf586905",
+        "fromColumn": "Date",
+        "fromTable": "Dim_Tiempo",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_771f94d6-be2e-4c68-8e93-e5d57396ddc0"
+      },
+      {
+        "name": "f3b4b25b-25ae-4707-98e8-4cfeadc0a1f0",
+        "fromColumn": "fecha",
+        "fromTable": "ft_indicadores",
+        "toColumn": "Date",
+        "toTable": "Dim_Tiempo"
+      },
+      {
+        "name": "9145bdc3-7998-4f3a-878d-28de9e4d0c0f",
+        "fromColumn": "Region",
+        "fromTable": "dim_estaciones",
+        "toColumn": "nombreregion",
+        "toTable": "dim_regiones"
+      },
+      {
+        "name": "a63a5daf-68b3-483e-9e4d-e3b453f63eeb",
+        "fromColumn": "estacion",
+        "fromTable": "ft_indicadores",
+        "toColumn": "idEstacion",
+        "toTable": "dim_estaciones"
+      }
+    ],
+    "sourceQueryCulture": "es-CL",
+    "tables": [
+      {
+        "name": "DateTableTemplate_a4354d1a-a31c-4fcf-83c8-68ad6a44acf9",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "5fadc14e-1572-4e57-abcc-2d85d3728f21",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "fb271e9a-2244-4dd3-ac31-aba8952d4470",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "87dd9fea-ed34-427f-b1bf-6e0275716250",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "7ad1869c-8cc2-4043-9d45-1adb7369ae2d",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "339b22f5-defd-4aab-b0a2-e1883fbbb663",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "004dc057-b610-446e-a6df-b36d5e04ef84",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "fde4b45b-a36d-4605-9c1b-f52d91bfcd89",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "9b7d5da0-06b0-48ed-bdb1-c684b2c4cb12",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "7df23ee9-d8dd-47a1-95a1-86a8af147d1a",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "37ea5231-341f-44f9-bcd0-a477ee979a85",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "b96ef33c-98e8-4cad-bd5a-58c6aa79d87c",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "d0505745-5cb9-470a-80eb-ae5fd2870f09"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "63ea4d7d-be6e-42d4-895d-ae21d81da5be",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_a4354d1a-a31c-4fcf-83c8-68ad6a44acf9-a04db9c1-bb45-4fdd-a60e-b28317e9f72a",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim_Tiempo",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "eb23263fa3f049449ca3d1fdfe6943f0"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "895d520f-7a0c-4d62-9a3c-33fabfc68711",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "variations": [
+              {
+                "name": "Variación",
+                "defaultHierarchy": {
+                  "hierarchy": "Jerarquía de fechas",
+                  "table": "LocalDateTable_771f94d6-be2e-4c68-8e93-e5d57396ddc0"
+                },
+                "isDefault": true,
+                "relationship": "32a6aff7-c39e-4b4e-b2b5-5929bf586905"
+              }
+            ]
+          },
+          {
+            "name": "decada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "3630085b-1568-4ab8-a32e-7600bbac7fc8",
+            "sourceColumn": "[decada]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "estacion",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "c876ec42-9fbe-498f-9e7f-9dfa018b3162",
+            "sourceColumn": "[estacion]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "periodo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "67e492c0-6b5a-4e04-bcc9-ee850b911b8a",
+            "sourceColumn": "[periodo]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "dae5f117-94fd-482d-8b5d-d4692d9eaa3d",
+        "partitions": [
+          {
+            "name": "Dim_Tiempo-b524c2c0-2db8-458f-83ad-f3c34617bbf2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "var tiempo = calendar (  min ( ft_indicadores[fecha] ) , max(ft_indicadores[fecha] ) )",
+                "return ",
+                "ADDCOLUMNS( ",
+                "    tiempo , ",
+                "    \"periodo\" , FORMAT( [Date] , \"yyyy-MM\") ,",
+                "    \"decada\" , ROUNDDOWN( YEAR( [Date]) , -1) ,",
+                "    \"estacion\" , SWITCH( ",
+                "                    TRUE() , ",
+                "                    value( FORMAT ([Date] ,\"MMDD\") )< 321 , \"VERANO\" ,",
+                "                    VALUE( FORMAT ([Date] ,\"MMDD\") )< 621 , \"OTONO\" ,",
+                "                    VALUE( FORMAT ([Date] ,\"MMDD\") )< 921 , \"INVIERNO\" ,",
+                "                    VALUE( FORMAT ([Date] ,\"MMDD\") )< 1221 , \"PRIMAVERA\" ,",
+                "                    \"VERANO\")",
+                ")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_771f94d6-be2e-4c68-8e93-e5d57396ddc0",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "36bb2861-ffa4-4fbe-95c6-9e048aad1717",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "f3cb6946-18ca-46ff-b165-06751768c627",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "72c218d0-8560-4e27-aa9b-5a3a648e6d23",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "ef1b5645-214a-4c56-a7fa-1d60ccaf556c",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "c624bde5-3d2e-4915-97f8-00766814f568",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "08223c41-6fce-4eb4-894d-065bc05e4159",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "eb291124-dea2-495d-81ea-7e6c93f68e96",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "c406eebb-0547-44a4-97fb-0464cbe6bbeb",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "5814ad28-5df0-4b3a-ae12-caee23bd6f23",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "f748b5e0-e00c-4a75-9167-c9d11d82f977",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "5995389c-0d3d-4b37-8af7-0fe0ded9fa35",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "ae678fa1-cd47-4e80-9125-63caead06e30"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "e1662c5f-9098-4dd4-ba4d-5d508a82f8a6",
+        "partitions": [
+          {
+            "name": "LocalDateTable_771f94d6-be2e-4c68-8e93-e5d57396ddc0-e930146d-5be7-452a-ae09-5105decb2ed7",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Dim_Tiempo'[Date])), 1, 1), Date(Year(MAX('Dim_Tiempo'[Date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "Medidas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Columna1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "c71173e9-c73d-4284-97e2-6cfd09f0ddc3",
+            "sourceColumn": "Columna1",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "f5cf099d-0e0f-4d91-9572-6eba693c0357",
+        "measures": [
+          {
+            "name": "TMinima",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "MIN( ft_indicadores[min_temp])",
+            "lineageTag": "9d48d940-bf75-45cd-a6f2-158f81b45c0d"
+          },
+          {
+            "name": "TMaxima",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "MAX( ft_indicadores[max_temp] )",
+            "lineageTag": "b3da57ed-6243-4ae5-847c-522409a30124"
+          },
+          {
+            "name": "Oscilacion",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE( ft_indicadores[var_temp] )",
+            "lineageTag": "1a998d30-1fa0-46fa-8474-c6806ccc9177"
+          },
+          {
+            "name": "Temp Media",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE( [TMaxima] +[TMinima] , 2 )",
+            "lineageTag": "97ed8748-5ecb-4ef8-ba97-2aa4301ca12f"
+          },
+          {
+            "name": "Temp Media aA",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE( [Temp Media] , DATEADD( Dim_Tiempo[Date] , -1 , YEAR ))",
+            "lineageTag": "406eea35-02b8-44cb-ad6a-79f6ff748bd0"
+          },
+          {
+            "name": "Var TMedia",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "MAX( ft_indicadores[med_temp] )",
+            "lineageTag": "5ff101d7-cb1c-449f-a762-ea2aee197105"
+          },
+          {
+            "name": "filas",
+            "expression": "COUNTROWS( ft_indicadores )",
+            "formatString": "#,0",
+            "lineageTag": "0638b608-71ef-44cd-afdd-eedd7025edbe"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Medidas-2545b795-bad2-45fa-b262-795d9818fc10",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Origen,{{\"Columna1\", type text}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_estaciones",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Altitud (Mts)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3fc4bb48-1746-426f-977f-39427783b9c9",
+            "sourceColumn": "Altitud (Mts)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Paisaje",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "26777ed2-f4ae-45ef-89b8-7a3aedc0cc3e",
+            "sourceColumn": "Paisaje",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Region",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "32db6de4-95e2-4b6e-b2be-6930ebde49de",
+            "sourceColumn": "Region",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Zona Geografica",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "733cb5ab-1f63-4cb1-a0e2-a2bebbfd9c10",
+            "sourceColumn": "Zona Geografica",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "idEstacion",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5714f728-c447-403a-a8c6-b9032151ebee",
+            "sourceColumn": "idEstacion",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "latitud",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataCategory": "Latitude",
+            "dataType": "double",
+            "lineageTag": "9bda4270-a56e-4f45-ac07-af59c2ba92fc",
+            "sourceColumn": "latitud",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "longitud",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataCategory": "Longitude",
+            "dataType": "double",
+            "lineageTag": "786218ae-f0c4-451c-8fa1-7f383d57bdfc",
+            "sourceColumn": "longitud",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "nombreEstacion",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1c3dc155-4d78-4883-997a-87d7423fa73c",
+            "sourceColumn": "nombreEstacion",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "79a17d78-4a25-4d44-a32b-d3aaf012569a",
+        "partitions": [
+          {
+            "name": "dim_estaciones-6e5ba0c8-cba4-4e8a-ba36-a784b8a2548a",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Databases(\"wcalcagno-personal-ondemand.sql.azuresynapse.net\"),",
+                "    clima_cl = Origen{[Name=\"clima_cl\"]}[Data],",
+                "    dbo_vw_dim_estaciones = clima_cl{[Schema=\"dbo\",Item=\"vw_dim_estaciones\"]}[Data],",
+                "    #\"Valor reemplazado\" = Table.ReplaceValue(dbo_vw_dim_estaciones,\".0\",\"\",Replacer.ReplaceText,{\"codigoNacional\"}),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Valor reemplazado\",{{\"codigoNacional\", Int64.Type}}),",
+                "    #\"Columnas con nombre cambiado\" = Table.RenameColumns(#\"Tipo cambiado\",{{\"codigoNacional\", \"idEstacion\"}}),",
+                "    #\"Consultas combinadas\" = Table.NestedJoin(#\"Columnas con nombre cambiado\", {\"idEstacion\"}, CatastrodeEstacionesdelSistemaS, {\"Codigo Nacional\"}, \"CatastrodeEstacionesdelSistemaS\", JoinKind.LeftOuter),",
+                "    #\"Se expandió CatastrodeEstacionesdelSistemaS\" = Table.ExpandTableColumn(#\"Consultas combinadas\", \"CatastrodeEstacionesdelSistemaS\", {\"Altitud (Mts)\", \"Zona Geografica\", \"Region\", \"Paisaje\"}, {\"Altitud (Mts)\", \"Zona Geografica\", \"Region\", \"Paisaje\"})",
+                "in",
+                "    #\"Se expandió CatastrodeEstacionesdelSistemaS\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_regiones",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "codregion",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "isHidden": true,
+            "lineageTag": "553b394c-289f-4d79-8276-37c5c0f5b54c",
+            "sourceColumn": "codregion",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "geounit",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8e620e6-7f5c-49eb-84cd-d8ae13916d45",
+            "sourceColumn": "geounit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nombreregion",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "80acf24f-7411-4147-a40f-d6e5d60de7a1",
+            "sourceColumn": "nombreregion",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "4ab5233b-2d5a-4cec-9347-dd4385e4f522",
+        "partitions": [
+          {
+            "name": "dim_regiones-54ca981d-a8b2-4680-a4a5-5569b9d1c23e",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = dim_estaciones,",
+                "    #\"Otras columnas quitadas\" = Table.SelectColumns(Origen,{\"Region\"}),",
+                "    #\"Duplicados quitados\" = Table.Distinct(#\"Otras columnas quitadas\"),",
+                "    #\"Columna condicional agregada\" = Table.AddColumn(#\"Duplicados quitados\", \"Personalizado\", each if [Region] = \"Arica y Parinacota\" then 15 else if [Region] = \"Tarapaca\" then 1 else if [Region] = \"Antofagasta\" then 2 else if [Region] = \"Valparaiso\" then 5 else if [Region] = \"Atacama\" then 3 else if [Region] = \"Coquimbo\" then 4 else if [Region] = \"Metropolitana de Santiago\" then 13 else if [Region] = \"Del Maule\" then 7 else if [Region] = \"Del Libertador Gral. Bernardo O'Higgins\" then 6 else if [Region] = \"De Nuble\" then 16 else if [Region] = \"Del Biobio\" then 8 else if [Region] = \"De La Araucania\" then 9 else if [Region] = \"De Los Rios\" then 14 else if [Region] = \"De Los Lagos\" then 10 else if [Region] = \"Aysen del Gral. Carlos Ibanez del Campo\" then 11 else if [Region] = \"Magallanes y de la Antartica Chilena\" then 12 else null, type number),",
+                "    #\"Columnas con nombre cambiado\" = Table.RenameColumns(#\"Columna condicional agregada\",{{\"Personalizado\", \"codregion\"}, {\"Region\", \"nombreregion\"}}),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Columnas con nombre cambiado\",{{\"nombreregion\", type text}}),",
+                "    #\"Personalizada agregada\" = Table.AddColumn(#\"Tipo cambiado\", \"geounit\", each \"Chile\"),",
+                "    #\"Tipo cambiado1\" = Table.TransformColumnTypes(#\"Personalizada agregada\",{{\"geounit\", type text}})",
+                "in",
+                "    #\"Tipo cambiado1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ft_indicadores",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          }
+        ],
+        "columns": [
+          {
+            "name": "estacion",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e02ac584-777e-46d7-8db8-839a855e9bce",
+            "sourceColumn": "estacion",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fecha",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "isHidden": true,
+            "lineageTag": "dca3d136-f5f9-4d8c-a4cf-a7e6176e6097",
+            "sourceColumn": "fecha",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "max_hum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "64208e59-f255-448a-91a9-7ef3301279f4",
+            "sourceColumn": "max_hum",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "max_temp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d34e29e6-38ca-4a63-b22c-544c45922a40",
+            "sourceColumn": "max_temp",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "max_vvel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "55206eef-6821-4009-9e30-a3dff6d59d69",
+            "sourceColumn": "max_vvel",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "med_temp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "272f3848-b209-4c82-bb49-a023b8b8fc28",
+            "sourceColumn": "med_temp",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "min_hum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "648aa96a-4dc8-498f-8fd0-cec7dea73b28",
+            "sourceColumn": "min_hum",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "min_temp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "6041a2bb-fe01-4013-a39a-dceb6e924b5a",
+            "sourceColumn": "min_temp",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "min_vvel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c3518bd2-1164-40b5-ae7f-292d575ae03f",
+            "sourceColumn": "min_vvel",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "var_temp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d257881f-9df1-43b6-809c-c712ab269708",
+            "sourceColumn": "var_temp",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "f6467751-566e-4914-976e-7be83633a60a",
+        "partitions": [
+          {
+            "name": "ft_indicadores-8b50aaaf-fe07-4cfd-b192-24788378286b",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Sql.Databases(\"wcalcagno-personal-ondemand.sql.azuresynapse.net\"),",
+                "    clima_cl = Origen{[Name=\"clima_cl\"]}[Data],",
+                "    dbo_vw_ft_clim_diario = clima_cl{[Schema=\"dbo\",Item=\"vw_ft_clim_diario\"]}[Data],",
+                "    #\"Valor reemplazado\" = Table.ReplaceValue(dbo_vw_ft_clim_diario,\".0\",\"\",Replacer.ReplaceText,{\"estacion\"}),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Valor reemplazado\",{{\"estacion\", Int64.Type}}),",
+                "    #\"Filas ordenadas\" = Table.Sort(#\"Tipo cambiado\",{{\"var_temp\", Order.Descending}}),",
+                "    #\"Filas filtradas\" = Table.SelectRows(#\"Filas ordenadas\", each [max_temp] <> 85.8)",
+                "in",
+                "    #\"Filas filtradas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
