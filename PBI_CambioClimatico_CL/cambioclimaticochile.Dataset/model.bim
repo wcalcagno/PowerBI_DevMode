@@ -3786,7 +3786,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "expression": "CALCULATE( [Temp Media] , DATEADD( Dim_Tiempo[Date] , -1 , YEAR ))",
+            "expression": "CALCULATE( [Temp Media] , DATEADD( Dim_Tiempo[Date] , -1 , MONTH ))",
             "lineageTag": "406eea35-02b8-44cb-ad6a-79f6ff748bd0"
           },
           {
